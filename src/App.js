@@ -1,9 +1,10 @@
 import React from 'react';
+import './App.css';
 
 function App() {
   return (
     <div>
-      App Placeholder
+      <h1>Test</h1>
     </div>
   );
 }
