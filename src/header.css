@@ -1,0 +1,34 @@
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+nav .align-left {
+    margin-left: 80px;
+    margin-right: auto;
+    height: 90%;
+}
+
+nav .align-right {
+    margin-left: auto;
+    margin-right: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+
+}
+nav .align-right>a:not(:last-child) {
+    margin-right: 25px;
+}
+
+nav .logo-link>img {
+    margin-top:32px;
+    margin-bottom:32px;
+    width: 150px;
+    height: 36px;
+}
