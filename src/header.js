@@ -8,12 +8,12 @@ function Header() {
     <header>
       <nav>
         <div className="align-left">
-          <a className="logo-link" href="Test">
+          <Link className="logo-link" to="/">
             <img src={Logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div className="align-right">
-          <Link to="/search">Search</Link>
+          <Link to="/search/javascript">Search</Link>
           <Link to="#how-it-works">How it works</Link>
           <Link to="#About ">About</Link>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './globalStyles.css';
 import {
-  BrowserRouter as Router, Routes, Route,
+  BrowserRouter as Router, Routes, Route, useParams,
 } from 'react-router-dom';
 import Header from './header';
 
@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="/search/:keyword" element={<Search />} />
         </Routes>
       </div>
     </Router>
@@ -27,9 +27,10 @@ function Home() {
 }
 
 function Search() {
+  const { keyword = 'javascript' } = useParams();
   return (
     <div>
-      <h2>Search</h2>
+      <h2>{keyword}</h2>
     </div>
   );
 }

@@ -32,3 +32,7 @@
   font-weight: 900;
   src: local("Bitter"), url(./fonts/Bitter/Bitter-Black.ttf) format("truetype");
 }
+
+body, html { 
+  font-family: 'Montserrat', sans-serif;
+}
