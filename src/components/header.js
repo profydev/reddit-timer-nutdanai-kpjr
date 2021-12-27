@@ -15,7 +15,7 @@ function Header() {
         <div className="align-right">
           <Link to="/search/javascript">Search</Link>
           <Link to="#how-it-works">How it works</Link>
-          <Link to="#about ">About</Link>
+          <Link to="#about">About</Link>
         </div>
       </nav>
     </header>
