@@ -1,0 +1,38 @@
+@import-normalize; 
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: local("Montserrat"), url(./fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 900;
+  src: local("Montserrat"), url(./fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bitter";
+  src: local("Bitter"), url(./fonts/Bitter/Bitter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Bitter";
+  font-weight: bold;
+  src: local("Bitter"), url(./fonts/Bitter/Bitter-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Bitter";
+  font-weight: 900;
+  src: local("Bitter"), url(./fonts/Bitter/Bitter-Black.ttf) format("truetype");
+}
+
+body, html { 
+  font-family: 'Montserrat', sans-serif;
+}
