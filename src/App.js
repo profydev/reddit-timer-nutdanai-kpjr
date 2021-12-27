@@ -3,7 +3,7 @@ import './globalStyles.css';
 import {
   BrowserRouter as Router, Routes, Route, useParams,
 } from 'react-router-dom';
-import Header from './header';
+import Header from './components/header';
 
 function App() {
   return (
